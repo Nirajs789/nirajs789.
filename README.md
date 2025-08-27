@@ -58,11 +58,11 @@ Captures **temperature/humidity**, logs to cloud for **real‑time charts**, and
 **Tech:** Arduino/ESP32, DHT11/22, ThingSpeak/Blynk, simple React dashboard
 **Repo:** <[https://github.com/](https://github.com/)<your-username>/arduino-weather-station> · **Live:** \<https\://\<live‑url>>
 
-### 3) Freelancing Platform (Learning Project)
+### 3) Weather App
 
-Full‑stack mock of a freelancing platform with auth, job posts, and profile pages.
-**Tech:** React, Chakra UI, Node.js/Express, MongoDB (or mock JSON server)
-**Repo:** <[https://github.com/](https://github.com/)<your-username>/freelance-platform> · **Live:** \<https\://\<live‑url>>
+A responsive **weather dashboard** that shows live conditions, temperature, AQI, and forecasts. Includes login, charts, and PWA offline support.
+**Tech:** React, API integration (OpenWeather/other), Firebase/Clerk for auth, charts for hourly temps
+**Repo:** <[https://github.com/](https://github.com/)<your-username>/weather-app> · **Live:** \<https\://\<live‑url>>
 
 > ✅ Tip: Pin these repos in your GitHub profile for quick access.
 
@@ -162,9 +162,9 @@ Create a new repo (e.g., `niraj-portfolio`) and add `index.html` with this minim
         <p><a href="#">Repo</a> · <a href="#">Live</a></p>
       </div>
       <div class="card">
-        <h3>Freelancing Platform (Mock)</h3>
-        <p>Auth, jobs, profiles — built while learning MERN stack.</p>
-        <span class="pill">React</span><span class="pill">Express</span><span class="pill">MongoDB</span>
+        <h3>Weather App</h3>
+        <p>React dashboard with login, charts, and real‑time weather data.</p>
+        <span class="pill">React</span><span class="pill">API</span><span class="pill">PWA</span>
         <p><a href="#">Repo</a> · <a href="#">Live</a></p>
       </div>
     </section>
